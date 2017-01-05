@@ -11,7 +11,7 @@ sap.ui.jsview("HCMMissingTimesheets.views.Master.Main.Main", {
 				new sap.m.Bar({
 				    contentLeft: [
 				      new sap.m.Image({
-				        src: FormatHelper.getPath() + "/img/bid.png",
+				        src: FormatHelper.getPath() + "/img/logo.png",
 				        height: "80%"
 						  }),
                     ],
