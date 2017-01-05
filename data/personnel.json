@@ -1,0 +1,28 @@
+{
+   "PersonnelSet" : [
+      {
+         "Emnam":"All",
+         "Pernr": ""
+      },
+      {
+      	"Emnam": "Pereira Carlos",
+      	"Pernr": "00056838"
+      },
+      {
+      	"Emnam": "Rothe Jorge",
+      	"Pernr": "00068056"
+      },
+      {
+      	"Emnam": "Okumura Masato",
+      	"Pernr": "00068809"
+      },
+      {
+      	"Emnam": "Mercer-Blackman Valerie",
+      	"Pernr": "00068098"
+      },
+      {
+      	"Emnam": "Weidele Robert",
+      	"Pernr": "00071142"
+      }
+   ]
+}

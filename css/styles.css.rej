@@ -1,0 +1,10 @@
+diff a/WebContent/css/styles.css b/WebContent/css/styles.css	(rejected hunks)
+@@ -11,7 +11,7 @@
+ 	background-color:#004A6F;
+ }
+ 
+-#boxFilters
++#searchFields
+ {
+ 	margin-left: 20px;
+ }

@@ -1,0 +1,10 @@
+{
+	"applications" : { 
+        "myFioriApp-display" : {
+            "title": "HCM Missing Timesheets",
+            "additionalInformation" : "SAPUI5.Component=HCMMissingTimesheets",
+            "applicationType" : "URL",
+            "url" : "./"
+        }
+    }
+}

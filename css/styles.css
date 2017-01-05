@@ -1,0 +1,572 @@
+.invisible {
+	display: none !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*Main*/
+#Main {
+	background-color:#004A6F;
+}
+
+#boxFilters
+{
+	margin-left: 20px;
+}
+
+.sapMPageHeader::before
+{
+	border-top: none;
+}
+
+.mainBar.sapMBar {
+	background-color: #fff;
+}
+
+#Results header span{
+    font-size: 1.5rem;
+    line-height: 3rem;
+	color: #000;
+	font-weight: bold;
+}
+
+#Results header .sapMBarPH
+{
+	text-align: left;
+}
+
+#EmptyResults header span{
+    font-size: 1.5rem;
+    line-height: 3rem;
+	color: #000;
+	font-weight: bold;
+}
+
+.wrappableFlexbox{
+	flex-flow: row wrap;
+}
+
+.wrappableFlexbox .sapMText {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.filterLabel{
+    color: #555;
+    padding-top: 20px;
+}
+
+#boxFilters {
+	background: #004A6F;
+}
+
+#boxFilters .sapMText{
+	color: #fff;
+}
+
+#boxFilters .sapMLabel{
+	color: #fff;
+}
+
+#footerBtnBox div .sapMBtnDefault.sapMBtnHoverable.sapMBtnInner.sapMFocusable
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#btnSearchResults {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+#btnSearchResults .sapMBtnInner {
+	background: #1F9BD8;
+	border:none;
+	color: #fff;
+}
+
+#btnSearchResults .sapMBtnIcon {
+	color: #fff;
+}
+
+#Main>.sapMPage>footer .sapMBtn {
+	margin: 0 15px;
+}
+
+
+/*TableView*/
+#tblResults .sapMListTbl .sapMText.personnelInfoTitle{
+	color: #cacaca;
+	font-style: italic;
+}
+
+#tblResults .sapMListTbl .sapMText.personnelInfoData{
+	padding-left: 5px;
+	color: #545454;
+	font-weight: bold;
+}
+
+#tblResults .sapMListTbl .sapMText{
+	color: #004A6F;
+}
+
+#tblResults .sapMListTbl th .sapMText{
+	font-weight: bold;
+}
+
+#tblResults .sapMLIBShowSeparator > td {
+	border-top: 1px solid #3289A1;
+}
+
+#tblResults .sapMListTblRow:nth-child(even){
+	background: #D6E5EA;
+}
+
+
+/*ChartView*/
+/*#ChartView #vboxChartSummary
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}*/
+
+#vboxChartSummary .sapMText.kpi{
+	color:#004971;
+}
+
+#vboxChartSummary .sapMText.title{
+	color:#000;
+	font-size:1.5rem;
+}
+
+.boxDashboardSeparator {
+	border: 1px solid #004971;
+    margin: 20px;
+}
+
+
+/*TableView*/
+#tblResults .sapMListTbl .sapMText.personnelInfoTitle{
+	color: #cacaca;
+	font-style: italic;
+}
+
+#tblResults .sapMListTbl .sapMText.personnelInfoData{
+	padding-left: 5px;
+	color: #545454;
+	font-weight: bold;
+}
+
+#tblResults .sapMListTbl .sapMText{
+	color: #004A6F;
+}
+
+#tblResults .sapMListTbl th .sapMText{
+	font-weight: bold;
+}
+
+#tblResults .sapMLIBShowSeparator > td {
+	border-top: 1px solid #3289A1;
+}
+
+#tblResults .sapMListTblRow:nth-child(even){
+	background: #D6E5EA;
+}
+
+
+/*ChartView*/
+/*#ChartView #vboxChartSummary
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}*/
+
+#vboxChartSummary .sapMText.kpi{
+	color:#004971;
+}
+
+#vboxChartSummary .sapMText.title{
+	color:#000;
+	font-size:1.5rem;
+}
+
+.boxDashboardSeparator {
+	border: 1px solid #004971;
+    margin: 20px;
+}
+
+
+/*TableView*/
+#tblResults .sapMListTbl .sapMText.personnelInfoTitle{
+	color: #cacaca;
+	font-style: italic;
+}
+
+#tblResults .sapMListTbl .sapMText.personnelInfoData{
+	padding-left: 5px;
+	color: #545454;
+	font-weight: bold;
+}
+
+#tblResults .sapMListTbl .sapMText{
+	color: #004A6F;
+}
+
+#tblResults .sapMListTbl th .sapMText{
+	font-weight: bold;
+}
+
+#tblResults .sapMLIBShowSeparator > td {
+	border-top: 1px solid #3289A1;
+}
+
+#tblResults .sapMListTblRow:nth-child(even){
+	background: #D6E5EA;
+}
+
+
+/*ChartView*/
+/*#ChartView #vboxChartSummary
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}*/
+
+#vboxChartSummary .sapMText.kpi{
+	color:#004971;
+}
+
+#vboxChartSummary .sapMText.title{
+	color:#000;
+	font-size:1.5rem;
+}
+
+.boxDashboardSeparator {
+	border: 1px solid #004971;
+    margin: 20px;
+}
+
+
+/***Popover***/
+.customPopOver.sapMPopup-CTX .sapMIBar.sapMHeader-CTX,
+.customPopOver .sap-desktop .sapMIBar.sapMFooter-CTX,
+.customPopOver .sapMIBar-CTX.sapMFooter-CTX,
+.customPopOver .sapMSLI,
+.customPopOver .sapMListBGSolid .sapMLIB
+{
+	background-color:#005670;
+}
+
+.customPopOver .sapMSLI:hover,
+.customPopOver .sapMListBGSolid .sapMLIB:hover,
+.sap-desktop .customPopOver .sapMLIB:not(.sapMLIBActive):not(.sapMLIBTypeInactive):not(.sapMLIBTypeDetail):not(.sapMALI):hover
+{
+	background-color:#00D7C2;
+}
+
+.customPopOver.sapMPopover
+{
+	border:0px;
+}
+
+.customPopOver .sapMPopoverArrUp,
+.customPopOver .sapMPopoverArrUp:after,
+.customPopOver .sapMPopoverWithoutBar.sapMPopoverNav.sapMPopoverWithHeaderCont>.sapMPopoverArrUp:after,
+.customPopOver .sapMPopoverWithoutBar.sapMPopoverPage.sapMPopoverWithHeaderCont>.sapMPopoverArrUp:after
+{
+	border-bottom-color:#005670;
+}
+
+.customPopOver .sapMIBar-CTX .sapMLabel,
+.customPopOver .sapMSLITitle,
+.customPopOver .sapMSLIDescription,
+.customPopOver .sapMSLITitleOnly,
+.customPopOver .sapMSLIImgIcon
+{
+	color:#fff;
+}
+
+.customPopOver .sapMBar
+{
+	text-shadow:none;
+}
+
+.dialogHorizontalLine
+{
+	border-bottom: 1px solid #fff;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+
+/***************************Message box helper****************************/
+.dialogCustom
+{
+	background-color: #005670;
+	color: #fff;
+}
+
+.dialogCustom.sapMMessageDialog.sapMPopup-CTX>header.sapMDialogTitle,
+.dialogCustom .sapMDialogSection,
+.dialogCustom.sapMDialog>section,
+.sap-desktop .dialogCustom .sapMIBar.sapMFooter-CTX
+{
+	background-color: transparent;
+}
+
+.dialogCustom .sapMBar
+{
+	text-shadow: none;
+}
+
+.dialogCustom.sapMMessageDialog.sapMPopup-CTX>header.sapMDialogTitle,
+.dialogCustom.sapMDialog>header.sapMDialogTitle>.sapMBarMiddle>.sapMBarPH>.sapMLabel,
+.dialogCustom.sapMDialog>header.sapMDialogTitle>.sapMBarMiddle>.sapMBarPH>.sapMTitle
+{
+	color: #fff;
+}
+
+.dialogCustom .sapMLnk:hover:not(.sapMLnkDsbl),
+.dialogCustom .sapMLnk:visited,
+.dialogCustom .sapMLnk,
+.dialogCustom .sapMLnk:focus
+{
+	color:#00D7C2;
+}
+
+#dialogAlert .btnTransparent .sapMBtnCustomIcon
+{
+	color: #fff;
+}
+
+#dialogConfirm .sapMBtnIcon
+{
+	color:#fff;
+}
+
+#dialogConfirm .sapMBtn:hover > .sapMBtnHoverable
+{
+	background-color:transparent;
+}
+
+
+#boxEmptyResults
+{
+	margin-top: 30px;
+  color: #cacaca;
+	font-style: italic;
+}
+.emptyTitle
+{
+	font-size: 1.4rem;
+	margin-top: 10px;
+	text-align: center !important;
+}
+
+.emptyInfo
+{
+	font-size: 1.2rem;
+	margin-top: 20px;
+}
+
+.cursorPointer
+{
+	cursor: pointer;
+}
+
+/*.sapMCbActiveStateOff.sapMCbBg.sapMCbHoverable.sapMCbMark
+{
+	border-radius: 1em;
+}*/
+
+#tblResults .sapMCbActiveStateOff.sapMCbBg.sapMCbMark
+{
+	border-radius: 1em;
+}
+
+.smallerImage60 img
+{
+	width: 50%;
+}
+
+.smallerImage60 div
+{
+	display: inline;
+}
+
+#Main .sapMBarContainer .sapMBarLeft
+{
+	text-align: left;
+}
+
+#Results .sapMBarContainer .sapMBarRight
+{
+	display: inline;
+	text-align: left;
+	background-color: white;
+}
+
+#EmptyResults .sapMBarContainer .sapMBarRight
+{
+	display: inline;
+	text-align: left;
+	background-color: white;
+}
+
+#gaugeMissingHours
+{
+	max-height: 200px !important;
+}
+
+.paddingBottom
+{
+	padding-bottom: 2%;
+}
+
+#treeOrganizationUnit
+{
+	margin-top: 10%;
+	max-height: 300px;
+    overflow: scroll;
+    min-height: 20em;
+}
+
+
+#missingHoursBox img
+{
+    max-height: 130px;
+    height: 20vw !important;
+}
+
+#missingHoursBox span
+{
+	display: inline-table;
+	white-space: nowrap;
+}
+
+#totalHoursBox img
+{
+    max-height: 130px;
+    height: 20vw !important;
+}
+
+#totalHoursBox span
+{
+	display: inline-table;
+    white-space: nowrap;
+}
+
+#recordsBox img
+{
+    max-height: 130px;
+    height: 20vw !important;
+}
+
+#recordsBox span
+{
+	display: inline-table;
+	white-space: nowrap;
+}
+
+.centerText div:nth-child(2)
+{
+	text-align: center;
+}
+
+#Results Header .sapMBarLeft span
+{
+    align-items: center;
+    display: flex;
+}
+
+/*Misc*/
+.marginLeft
+{
+	margin-left: 1em;
+}
+
+.marginRight
+{
+    margin-right: 1em;
+}
+
+.marginTop
+{
+    margin-top: 1em;
+}
+
+.grayColor
+{
+    color: gray;
+}
+
+.invisible
+{
+	display: none;
+}
+
+/**************Personel******************/
+/***************************Message box helper****************************/
+.dialogCustom
+{
+	background-color: #004a6f;
+	color: #fff;
+}
+
+.dialogCustom.sapMMessageDialog.sapMPopup-CTX>header.sapMDialogTitle,
+.dialogCustom.sapMDialog>section,
+.dialogCustom .sapMDialogSection,
+.sap-desktop .dialogCustom .sapMIBar.sapMFooter-CTX,
+.dialogCustom.sapMPopup-CTX .sapMIBar.sapMHeader-CTX,
+.dialogCustom .sapMBar
+{
+	background-color: transparent;
+}
+
+.dialogCustom .sapMBar
+{
+	text-shadow: none;
+	box-shadow:none;
+}
+
+.dialogCustom.sapMMessageDialog.sapMPopup-CTX>header.sapMDialogTitle,
+.dialogCustom.sapMDialog>header.sapMDialogTitle>.sapMBarMiddle>.sapMBarPH>.sapMLabel,
+.dialogCustom.sapMDialog>header.sapMDialogTitle>.sapMBarMiddle>.sapMBarPH>.sapMTitle,
+.dialogCustom .sapMBtnIcon
+{
+	color: #fff;
+}
+
+.dialogCustom .sapMLnk:hover:not(.sapMLnkDsbl),
+.dialogCustom .sapMLnk:visited,
+.dialogCustom .sapMLnk,
+.dialogCustom .sapMLnk:focus
+{
+	color:#fff;
+}
+
+#txtPersonnelName
+{
+	margin-left: 12pt;
+}
+
+#tblPersonnels
+{
+	Margin-top: 15pt;
+	color: black;
+}
+
+.errorDialogDetail
+{
+	display: none;
+    transition: 1s;
+    max-width: 360px;
+}
+
+#contentDetailBox div
+{
+	width: 100%;
+}
